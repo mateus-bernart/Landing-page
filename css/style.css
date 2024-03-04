@@ -1,11 +1,12 @@
 :root{
-    --background-color: #1e2a3b;
+    --background-color: #2f3844;
     --logo-color: #f9faf8;
     --link-color: #e5e5eb;
     --secondary-color: rgb(255, 196, 0);
 }
 body{
     font-family: monospace;
+    text-align: center;
 }
 a{
     text-decoration: none;
@@ -33,7 +34,6 @@ header{
 .navbar li{
     font-weight: bold;
     padding: 10px;
-    margin: 0 10px;
 }
 .nav-flex a{
     color: var(--link-color);
@@ -46,6 +46,82 @@ header{
 .navbar a:hover {
     color: var(--secondary-color);
   }
+
+
+.container{
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100%;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    font-weight: bold;
+    text-align: justify;
+    margin: 30px;
+
+}
+.introduction p{
+    color: rgb(201, 201, 201);
+}
+.introduction h1{
+    color: white;
+}
+
+button{
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(85, 158, 255);
+}
+
+.title{
+    font-size: 22px;
+    font-weight: 800;
+    margin: 40px;
+}
+
+.container-information{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info{
+    max-width: 100px;
+}
+
+.box{
+    background-color: white;
+    border: 2px solid rgb(93, 93, 255);
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 390px) and (max-width: 767px) {
     header {
       height: 100%;
@@ -55,3 +131,4 @@ header{
       flex-direction: column;
     }
   }
+
