@@ -90,10 +90,10 @@ button{
 }
 
 .container-information{
-    text-align: center;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
+    margin-bottom: 50px;
 }
 
 .info{
@@ -108,16 +108,90 @@ button{
     height: 100px;
 }
 
+.text{
+    font-size: 12px;
+    font-weight: 200;
+    color: rgb(82, 82, 82);
+    padding: 10px;
+}
 
+.container-quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    background-color: rgb(238, 238, 238);
 
+}
 
+.text-quote, .quote-author{
+    width: 500px;
+}
 
+.container-quote .text-quote h2{
+    margin: 50px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: lighter;
+}
 
+.container-quote h3{
+    padding: 0px;
+    margin: 0px;
+}
 
+.quote-author{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 50px;
+}
 
+.container-modal{
+    margin: 70px;
+}
 
+.container-modal, .modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal{
+    border-radius: 5px;
+    background-color: rgb(63, 131, 219);
+}
 
+.text-modal, .button{
+    padding: 20px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.modal .text-modal{
+    color: white;
+}
+.modal .text-modal h4{
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
 
+.modal .text-modal p{
+    margin-top: 5px;
+}
+
+.container-modal .modal .button button{
+    background-color: rgb(63, 131, 219);
+    border-color: #e5e5eb;
+}
+
+.container-footer{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2f3844;
+    height: 70px;
+}
 
 
 
